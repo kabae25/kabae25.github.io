@@ -1,0 +1,210 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-whc_version="26.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="DC.rights.owner" content="(C) Copyright 2024"/><meta name="copyright" content="(C) Copyright 2024"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="concept"/><meta name="description" content="How to find your computer's internal and external IP Adress."/><meta name="DC.relation" content="../../1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/diving_deeper_into_configuration.html"/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="c_finding_internal_and_external_ip_address"/>        
+      <title>Finding your internal and external IP address</title><!--  Generated with Oxygen version 26.1, build number 2024072909.  --><meta name="wh-path2root" content="../../"/><meta name="wh-toc-id" content="c_finding_internal_and_external_ip_address-d572e152"/><meta name="wh-source-relpath" content="1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/p_finding_internal_and_external_ip_address.dita"/><meta name="wh-out-relpath" content="1 Server Hosting/2 Diving Deeper into Configuration/p_finding_internal_and_external_ip_address.html"/>
+
+    <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/commons.css?buildId=2024072909"/>
+    <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic.css?buildId=2024072909"/>
+
+    <script src="../../oxygen-webhelp/app/options/properties.js?buildId=20241009200047"></script>
+    <script src="../../oxygen-webhelp/app/localization/strings.js?buildId=2024072909"></script>
+    <script src="../../oxygen-webhelp/app/search/index/keywords.js?buildId=20241009200047"></script>
+    <script defer="defer" src="../../oxygen-webhelp/app/commons.js?buildId=2024072909"></script>
+    <script defer="defer" src="../../oxygen-webhelp/app/topic.js?buildId=2024072909"></script>
+<link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/oxygen.css?buildId=2024072909"/><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/notes.css?buildId=2024072909"/></head>
+
+    <body id="c_finding_internal_and_external_ip_address" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    
+                    <div class=" wh_publication_title "><a href="../../index.html"><span class="title">Minecraft Game Server Setup and Administration</span></a></div>
+                    
+                </div>
+                
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu " aria-label="Menu Container"><ul role="menubar" aria-label="Menu"><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="server_hosting-d572e11-mi" data-tocid="server_hosting-d572e11" data-state="not-ready" class=" topicref " data-id="server_hosting"><span class="title"><a href="../../1%20Server%20Hosting/server_hosting.html">Server Hosting</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="plugins-d572e230-mi" data-tocid="plugins-d572e230" data-state="not-ready" class=" topicref " data-id="plugins"><span class="title"><a href="../../2%20Plugins/plugins.html">Plugins</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="permissions-d572e366-mi" data-tocid="permissions-d572e366" data-state="not-ready" class=" topicref " data-id="permissions"><span class="title"><a href="../../3%20Permissions/permissions.html">Permissions</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="troubleshooting-d572e510-mi" data-tocid="troubleshooting-d572e510" data-state="not-ready" class=" topicref " data-id="troubleshooting"><span class="title"><a href="../../4%20Troubleshooting/troubleshooting.html">Troubleshooting</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="../../index.html"><span>Home</span></a></span></li><li><div class="topicref" data-id="server_hosting"><div class="title"><a href="../../1%20Server%20Hosting/server_hosting.html">Server Hosting</a></div></div></li><li><div class="topicref" data-id="diving_deeper_into_configuration"><div class="title"><a href="../../1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/diving_deeper_into_configuration.html">Diving Deeper into Configuration</a></div></div></li><li class="active"><div class="topicref" data-id="c_finding_internal_and_external_ip_address"><div class="title"><a href="../../1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/p_finding_internal_and_external_ip_address.html">Finding your internal and external IP address</a><div class="wh-tooltip"><p class="shortdesc">How to find your computer's internal and external IP Adress.</p></div></div></div></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <button type="button" id="wh_toc_button" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-12 d-md-block d-none d-print-none" aria-label="Table of Contents Container">
+                            <div id="wh_publication_toc_content">
+		                        
+                            	<div class=" wh_publication_toc " data-tooltip-position="right"><span class="expand-button-action-labels"><span id="button-expand-action" role="button" aria-label="Expand"></span><span id="button-collapse-action" role="button" aria-label="Collapse"></span><span id="button-pending-action" role="button" aria-label="Pending"></span></span><ul role="tree" aria-label="Table of Contents"><li role="treeitem" aria-expanded="true"><div data-tocid="server_hosting-d572e11" class="topicref" data-id="server_hosting" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action server_hosting-d572e11-link" class="wh-expand-btn"></span><div class="title"><a href="../../1%20Server%20Hosting/server_hosting.html" id="server_hosting-d572e11-link">Server Hosting</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" aria-expanded="false"><div data-tocid="example_server_setup-d572e19" class="topicref" data-id="example_server_setup" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action example_server_setup-d572e19-link" class="wh-expand-btn"></span><div class="title"><a href="../../1%20Server%20Hosting/1%20Example%20Server%20Setup/example_server_setup.html" id="example_server_setup-d572e19-link">Example Server Setup</a></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="diving_deeper_into_configuration-d572e100" class="topicref" data-id="diving_deeper_into_configuration" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action diving_deeper_into_configuration-d572e100-link" class="wh-expand-btn"></span><div class="title"><a href="../../1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/diving_deeper_into_configuration.html" id="diving_deeper_into_configuration-d572e100-link">Diving Deeper into Configuration</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem"><div data-tocid="c_all_server_files-d572e108" class="topicref" data-id="c_all_server_files" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/c_all_server_files.html" id="c_all_server_files-d572e108-link">All Server Files</a><div class="wh-tooltip"><p class="shortdesc">Complete list of files and folders generated at server startup (As of         1.21.1)</p></div></div></div></li><li role="treeitem"><div data-tocid="c_minecraft_game_servers-d572e119" class="topicref" data-id="c_minecraft_game_servers" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/c_minecraft_game_servers.html" id="c_minecraft_game_servers-d572e119-link">Minecraft Server Software</a><div class="wh-tooltip"><p class="shortdesc">A list of different Minecraft game server software</p></div></div></div></li><li role="treeitem"><div data-tocid="c_server_initialization_files-d572e130" class="topicref" data-id="c_server_initialization_files" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/c_server_initialization_files.html" id="c_server_initialization_files-d572e130-link">Server Initialization Files</a><div class="wh-tooltip"><p class="shortdesc">Descriptions about files and folder made at server initialization.</p></div></div></div></li><li role="treeitem"><div data-tocid="c_server_properties_configuration-d572e141" class="topicref" data-id="c_server_properties_configuration" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/c_server_properties_configuration.html" id="c_server_properties_configuration-d572e141-link">Server Properties Configuration</a><div class="wh-tooltip"><p class="shortdesc"> Explaination of  the server's configuration file.</p></div></div></div></li><li role="treeitem" class="active"><div data-tocid="c_finding_internal_and_external_ip_address-d572e152" class="topicref" data-id="c_finding_internal_and_external_ip_address" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/p_finding_internal_and_external_ip_address.html" id="c_finding_internal_and_external_ip_address-d572e152-link">Finding your internal and external IP address</a><div class="wh-tooltip"><p class="shortdesc">How to find your computer's internal and external IP Adress.</p></div></div></div></li></ul></li><li role="treeitem" aria-expanded="false"><div data-tocid="hosting_resources-d572e163" class="topicref" data-id="hosting_resources" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action hosting_resources-d572e163-link" class="wh-expand-btn"></span><div class="title"><a href="../../1%20Server%20Hosting/3%20Hosting%20Resources/hosting_resources.html" id="hosting_resources-d572e163-link">Hosting Resources</a><div class="wh-tooltip"><p class="shortdesc">Compiled useful reasources and reading relating to game server hosting and the         technology behind it.</p></div></div></div></li></ul></li></ul></div>
+		                        
+                            </div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-7 col-md-9 col-sm-12" id="wh_topic_body">
+                        <button id="wh_close_publication_toc_button" class="close-toc-button d-none" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        <button id="wh_close_topic_toc_button" class="close-toc-button d-none" aria-label="Toggle topic table of content" aria-controls="wh_topic_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article class="- topic/topic concept/concept topic concept" role="article" aria-labelledby="ariaid-title1">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Finding your internal and external IP address</h1>
+    
+    <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc">How to find your computer's internal and external IP Adress.</p>
+        <p class="- topic/p p">Computers that are connected to a network send and receive information through packets.
+            Like a letter, each packet has a sender and recipient adress. These addresses follow the
+                <strong class="+ topic/ph hi-d/b ph b">internet protocol</strong>, or IP standards.</p>
+        <p class="- topic/p p">Computers inside of a network are given a local IP from their router. A router is given
+            it's own IP from your internet service provider in order to repesent your network to the
+            internal. These are called internal and external IP adresses respectively. </p>
+        <section class="- topic/section section" id="c_finding_internal_and_external_ip_address__section_s2p_hlt_ycc" data-ofbid="c_finding_internal_and_external_ip_address__section_s2p_hlt_ycc"><h2 class="- topic/title title sectiontitle">Internal IP</h2>
+            
+            <p class="- topic/p p">For computers with the Windows Operating System, you can use the
+                    <span class="+ topic/keyword sw-d/cmdname keyword cmdname">ipconfig</span> command in the command prompt.</p>
+            <ol class="- topic/ol ol" id="c_finding_internal_and_external_ip_address__ol_h14_1mt_ycc" data-ofbid="c_finding_internal_and_external_ip_address__ol_h14_1mt_ycc">
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Open the command prompt</strong><p class="- topic/p p">Hold both the <em class="+ topic/ph hi-d/i ph i"><span class="- topic/keyword keyword">Win + R</span></em>
+                        keys to open the run prompt.</p></li>
+                <li class="- topic/li li">Enter <em class="+ topic/ph hi-d/i ph i"><span class="- topic/keyword keyword">cmd</span></em> in the Open: Text entry box <img class="- topic/image image" id="c_finding_internal_and_external_ip_address__image_r4n_smt_ycc" src="../Images/run_prompt_populated.png"/></li>
+                <li class="- topic/li li">Press the <em class="+ topic/ph hi-d/i ph i"><span class="- topic/keyword keyword">Enter</span></em> key on your keyboard, or press the
+                            <em class="+ topic/ph hi-d/i ph i"><span class="- topic/keyword keyword">OK</span></em> button on the Run prompt to continue.</li>
+                <li class="- topic/li li">A command prompt window will open. Type <em class="+ topic/ph hi-d/i ph i"><span class="- topic/keyword keyword">ipconfig</span></em> at
+                    the command line and press the <em class="+ topic/ph hi-d/i ph i"><span class="- topic/keyword keyword">Enter</span></em> key on your
+                    keyboard. <img class="- topic/image image" id="c_finding_internal_and_external_ip_address__image_lyb_mnt_ycc" src="../Images/cmd_with_ipconfig.png"/></li>
+                <li class="- topic/li li">The command prompt will populate with "Windows IP Configuration".  <p class="- topic/p p">If your
+                        computer is connected with Ethernet directly to the network, scroll to the
+                        section beginning with  <em class="+ topic/ph hi-d/i ph i"><span class="- topic/keyword keyword">Ethernet adapter
+                        Ethernet</span></em>.</p><p class="- topic/p p">If your computer is connected to the network
+                        over WiFi, scroll to the section beginning with  <em class="+ topic/ph hi-d/i ph i"><span class="- topic/keyword keyword">Wireless LAN
+                                adapter Wi-Fi</span></em></p></li>
+                <li class="- topic/li li"><strong class="+ topic/ph hi-d/b ph b">Find the IPv4 Address</strong><p class="- topic/p p">Your internal IP can be found on the line
+                        beginning with <em class="+ topic/ph hi-d/i ph i"><span class="- topic/keyword keyword">IPv4 Address</span></em>. In the image below,
+                        this computer has the IPv4 Address:
+                        <span class="- topic/keyword keyword">192.168.56.1</span></p><img class="- topic/image image" id="c_finding_internal_and_external_ip_address__image_dwm_npt_ycc" src="../Images/ipconfig.png"/></li>
+            </ol>
+        </section>
+        <section class="- topic/section section" id="c_finding_internal_and_external_ip_address__section_xx1_s4t_ycc" data-ofbid="c_finding_internal_and_external_ip_address__section_xx1_s4t_ycc"><h2 class="- topic/title title sectiontitle">External IP</h2>
+            
+            <p class="- topic/p p">The exernal IP can very easily be found with any web browser.</p>
+            <div class="- topic/sectiondiv sectiondiv">
+                <p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">With YouGetSignal</strong></p>
+                <p class="- topic/p p">Go to <a class="- topic/xref xref" href="https://www.yougetsignal.com/what-is-my-ip-address/" target="_blank" rel="external noopener">https://www.yougetsignal.com/what-is-my-ip-address/</a> in a web browser, and your external IP will
+                    be displayed. There is no security risk associated with accessing your external
+                    IP address </p>
+            </div>
+            <div class="- topic/sectiondiv sectiondiv"><p class="- topic/p p"><strong class="+ topic/ph hi-d/b ph b">With a Google Search</strong></p><p class="- topic/p p">Entering <em class="+ topic/ph hi-d/i ph i"><span class="- topic/keyword keyword">What's my
+                            ip</span></em> into Google will provide your External/Public IP
+                    address.</p><img class="- topic/image image" id="c_finding_internal_and_external_ip_address__image_hjf_zpt_ycc" src="../Images/whats_my_ext_ip.png"/></div>
+            <div class="- topic/note note important note_important" id="c_finding_internal_and_external_ip_address__note_pfn_zpt_ycc" data-ofbid="c_finding_internal_and_external_ip_address__note_pfn_zpt_ycc"><span class="note__title">Important:</span> Never share your External/Public IP address
+                with people you don't know or aren't comfortable connecting to your network.</div>
+        </section>
+    </div>
+</article></main></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                        <nav role="navigation" id="wh_topic_toc" aria-label="On this page" class="col-lg-2 d-none d-lg-block navbar d-print-none"> 
+                            <div id="wh_topic_toc_content">
+		                        
+	                            <div class=" wh_topic_toc "><div class="wh_topic_label">On this page</div><ul><li class="section-item"><div class="section-title"><a href="#c_finding_internal_and_external_ip_address__section_s2p_hlt_ycc" data-tocid="c_finding_internal_and_external_ip_address__section_s2p_hlt_ycc">Internal IP</a></div></li><li class="section-item"><div class="section-title"><a href="#c_finding_internal_and_external_ip_address__section_xx1_s4t_ycc" data-tocid="c_finding_internal_and_external_ip_address__section_xx1_s4t_ycc">External IP</a></div></li></ul></div>
+	                        	
+                        	</div>
+                        </nav>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container mx-auto ">
+    <div>Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">
+ &lt;oXygen/&gt; XML WebHelp
+ </a></div>
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>
