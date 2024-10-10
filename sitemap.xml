@@ -2,282 +2,250 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>1%20Server%20Hosting/server_hosting.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/1%20Example%20Server%20Setup/example_server_setup.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/1%20Example%20Server%20Setup/p_how_to_install_java.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/1%20Example%20Server%20Setup/p_downloading_a_minecraft_game_server.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/1%20Example%20Server%20Setup/p_preparing_the_server_folder.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>1%20Server%20Hosting/1%20Example%20Server%20Setup/p_initialize_the_server.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>1%20Server%20Hosting/1%20Example%20Server%20Setup/p_edit_eula_and_server_propoerties.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/1%20Example%20Server%20Setup/p_creating_a_boot_script.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
+   </url>
+   <url>
+      <loc>1%20Server%20Hosting/1%20Example%20Server%20Setup/p_edit_eula_and_server_propoerties.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
+   </url>
+   <url>
+      <loc>1%20Server%20Hosting/1%20Example%20Server%20Setup/p_initialize_the_server.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/1%20Example%20Server%20Setup/p_starting_the_server.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/1%20Example%20Server%20Setup/p_connecting_to_the_server.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
+   </url>
+   <url>
+      <loc>1%20Server%20Hosting/1%20Example%20Server%20Setup/p_using_commands.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/diving_deeper_into_configuration.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/c_all_server_files.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/c_minecraft_game_servers.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/c_server_initialization_files.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/c_server_properties_configuration.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/p_finding_internal_and_external_ip_address.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
+   </url>
+   <url>
+      <loc>1%20Server%20Hosting/2%20Diving%20Deeper%20into%20Configuration/p_setting_a_server_icon.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/3%20Hosting%20Resources/hosting_resources.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/3%20Hosting%20Resources/r_about_java.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/3%20Hosting%20Resources/r_java_requirements_for_different_minecraft_versions.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/3%20Hosting%20Resources/r_java_runtime_parameter_optimization.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/3%20Hosting%20Resources/r_port_forwarding.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>1%20Server%20Hosting/3%20Hosting%20Resources/r_server_command_references.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>2%20Plugins/plugins.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>2%20Plugins/1%20Example%20Plugin%20Installation/example_plugin_installaion.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>2%20Plugins/1%20Example%20Plugin%20Installation/p_prepare_and_backup_worlds.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>2%20Plugins/1%20Example%20Plugin%20Installation/p_browse_and_download_essentialsx.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>2%20Plugins/1%20Example%20Plugin%20Installation/p_adding_and_loading_plugins.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>2%20Plugins/1%20Example%20Plugin%20Installation/p_reload_the_server_and_verify_plugin_installation.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>2%20Plugins/1%20Example%20Plugin%20Installation/p_edit_plugin_configuration_file.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>2%20Plugins/1%20Example%20Plugin%20Installation/p_test_plugin_on_a_minecraft_client.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>2%20Plugins/2%20Managing%20Plugins/managing_plugins.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>2%20Plugins/2%20Managing%20Plugins/c_finding_plugins.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>2%20Plugins/2%20Managing%20Plugins/c_managing_plugin_compatability.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>2%20Plugins/2%20Managing%20Plugins/c_organizing_plugins.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>2%20Plugins/2%20Managing%20Plugins/p_removing_plugins.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>2%20Plugins/2%20Managing%20Plugins/c_bulk_plugin_initialization.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
+   </url>
+   <url>
+      <loc>2%20Plugins/2%20Managing%20Plugins/c_managing_plugin_compatability.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
+   </url>
+   <url>
+      <loc>2%20Plugins/2%20Managing%20Plugins/c_organizing_plugins.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
+   </url>
+   <url>
+      <loc>2%20Plugins/2%20Managing%20Plugins/p_removing_plugins.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>2%20Plugins/3%20Plugin%20Resources/plugin_resources.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
-      <loc>2%20Plugins/3%20Plugin%20Resources/r_popular_plugins_by_category.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <loc>2%20Plugins/3%20Plugin%20Resources/r_popular_plugins.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>2%20Plugins/3%20Plugin%20Resources/r_reliable_plugin_sources.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>3%20Permissions/permissions.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>3%20Permissions/1%20Example%20Permissions%20Setup/example_permissions_setup.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>3%20Permissions/1%20Example%20Permissions%20Setup/p_necessary_first_steps_for_permissions.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>3%20Permissions/2%20Further%20information%20about%20Permission%20Managers/c_selecting_a_permission_manager.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>3%20Permissions/1%20Example%20Permissions%20Setup/p_loading_the_luckypermissions_plugin.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>3%20Permissions/1%20Example%20Permissions%20Setup/p_creating_an_example_user_group.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>3%20Permissions/1%20Example%20Permissions%20Setup/p_configuring_the_example_group.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>3%20Permissions/1%20Example%20Permissions%20Setup/p_adding_permissions_to_the_example_group.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>3%20Permissions/1%20Example%20Permissions%20Setup/p_adding_a_player_to_the_example_group.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>3%20Permissions/1%20Example%20Permissions%20Setup/p_testing_permissions_on_a_minecraft_client.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>3%20Permissions/2%20Further%20information%20about%20Permission%20Managers/further_information_about_permission_managers.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>3%20Permissions/2%20Further%20information%20about%20Permission%20Managers/c_about_permission_managers_and_selection.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>3%20Permissions/1%20Example%20Permissions%20Setup/c_about_permissions.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
-      <loc>3%20Permissions/2%20Further%20information%20about%20Permission%20Managers/c_organizing_groups_and_users.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <loc>3%20Permissions/1%20Example%20Permissions%20Setup/p_loading_the_luckypermissions_plugin.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
-      <loc>3%20Permissions/3%20Permission%20Resources/permissions_resources.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <loc>3%20Permissions/1%20Example%20Permissions%20Setup/p_creating_an_example_user_group.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
-      <loc>3%20Permissions/3%20Permission%20Resources/r_luckypermissions_command_syntax.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <loc>3%20Permissions/1%20Example%20Permissions%20Setup/p_adding_a_player_to_the_example_group.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
-      <loc>3%20Permissions/3%20Permission%20Resources/r_luckypermissions_configuration.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <loc>3%20Permissions/1%20Example%20Permissions%20Setup/p_testing_permissions_on_a_minecraft_client.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
-      <loc>3%20Permissions/3%20Permission%20Resources/r_luckypermissions_website.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <loc>3%20Permissions/2%20Permission%20Resources/permissions_resources.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
+   </url>
+   <url>
+      <loc>3%20Permissions/2%20Permission%20Resources/r_luckperms_resources.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>4%20Troubleshooting/troubleshooting.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>4%20Troubleshooting/1%20Server%20Issues/server_issues.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
-      <loc>4%20Troubleshooting/1%20Server%20Issues/tr_incorrect_java_version.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <loc>4%20Troubleshooting/1%20Server%20Issues/tr_java_command_not_recognized.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
-      <loc>4%20Troubleshooting/1%20Server%20Issues/tr_server_didn_t_generate_initialization_files.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <loc>4%20Troubleshooting/1%20Server%20Issues/tr_java_ver_error.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
-      <loc>4%20Troubleshooting/1%20Server%20Issues/tr_server_won_t_start.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <loc>4%20Troubleshooting/1%20Server%20Issues/tr_unable_to_access_jarfile.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
+   </url>
+   <url>
+      <loc>4%20Troubleshooting/1%20Server%20Issues/tr_unknown_or_imcomplete.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
+   </url>
+   <url>
+      <loc>4%20Troubleshooting/1%20Server%20Issues/tr_unknown_or_incomplete.html</loc>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>4%20Troubleshooting/2%20Pugin%20Issues/plugin_issues.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>4%20Troubleshooting/2%20Pugin%20Issues/tr_plugin_is_listed_but_doesn_t_generate_configuration_files.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>4%20Troubleshooting/2%20Pugin%20Issues/tr_plugins_don_t_work_or_cause_crashes.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>4%20Troubleshooting/2%20Pugin%20Issues/tr_plugins_won_t_appear_on_the_plugins_list.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>4%20Troubleshooting/2%20Pugin%20Issues/tr_server_crashes_when_i_try_to_run_a_command.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>4%20Troubleshooting/3%20Permission%20Issues/permission_issues.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
    <url>
       <loc>4%20Troubleshooting/3%20Permission%20Issues/tr_permission_does_not_exist.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
-   </url>
-   <url>
-      <loc>4%20Troubleshooting/3%20Permission%20Issues/tr_user_does_not_have_permission.html</loc>
-      <lastmod>2024-10-10T12:01:12Z</lastmod>
+      <lastmod>2024-10-10T09:05:10Z</lastmod>
    </url>
 </urlset>
