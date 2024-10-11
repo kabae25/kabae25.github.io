@@ -117,8 +117,4 @@
                path="4%20Troubleshooting/2%20Pugin%20Issues/tr_plugins_won_t_appear_on_the_plugins_list.html"/>
    <appContext helpID="tr_server_crashes_when_i_try_to_run_a_command"
                path="4%20Troubleshooting/2%20Pugin%20Issues/tr_server_crashes_when_i_try_to_run_a_command.html"/>
-   <appContext helpID="permission_issues"
-               path="4%20Troubleshooting/3%20Permission%20Issues/permission_issues.html"/>
-   <appContext helpID="tr_permission_does_not_exist"
-               path="4%20Troubleshooting/3%20Permission%20Issues/tr_permission_does_not_exist.html"/>
 </map>
