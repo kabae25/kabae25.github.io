@@ -92,11 +92,13 @@ p {
     margin-bottom: 1.5em;
     /* margin-left: 2em; */
 }
+li {
+    color: #666;
+}
 
 @media (max-width: 600px) {
     .container {
         margin-left: 1em;
-        margin-top: 4em;
         max-width: 23em;
         font-size: 1em;
     }
@@ -104,9 +106,7 @@ p {
         margin-left: 0em;
         font-size: 1em;
     }
-    .icon-links {
-        /* margin-left: 1.5em; */
-    }
+
     .separator {
         font-size: 3em;
         margin-bottom: 1em;
@@ -125,5 +125,8 @@ p {
         margin-left: 0em;
         margin-bottom: 1em;
         margin-top: 0.25em;
+    }
+    .btn-group {
+        margin-left: 0;
     }
 }
