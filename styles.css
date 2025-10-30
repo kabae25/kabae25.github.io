@@ -44,9 +44,12 @@ html {
 }
 
 .separator {
-    text-align: left;
+    /* text-align: left; */
     /* font-size: 60px; */
     font-size: 4em;
+    margin-left: 0.55em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .btn-group {
