@@ -4,13 +4,13 @@ html {
     padding: 0;
     height: 100%;
     background-color: #fff;
+    color: #333;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
-/* Container to center content */
 .container {
     text-align: left;
     max-width: 600px;
@@ -18,11 +18,16 @@ html {
     margin-top: 10em;
 }
 
+.content {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 1.2em;
+}
+
 .icon-links {
     margin-top: 1.5em;
     display: flex;
     gap: 1em;
-    margin-left: 2.5em;
 }
 
 .icon-links a {
@@ -31,7 +36,6 @@ html {
     justify-content: center;
     width: 36px;
     height: 36px;
-    /* border-radius: 50%; */
     background: #333;
     color: #fff;
     text-decoration: none;
@@ -44,10 +48,8 @@ html {
 }
 
 .separator {
-    /* text-align: left; */
-    /* font-size: 60px; */
+    text-align: left;
     font-size: 4em;
-    margin-left: 0.55em;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -86,10 +88,9 @@ h2 {
 }
 
 p {
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     margin-bottom: 1.5em;
-    color: #666;
-    margin-left: 2em;
+    /* margin-left: 2em; */
 }
 
 @media (max-width: 600px) {
@@ -99,18 +100,23 @@ p {
         max-width: 23em;
         font-size: 1em;
     }
-
+    .content {
+        margin-left: 0em;
+        font-size: 1em;
+    }
     .icon-links {
         margin-left: 1.5em;
-    }
-    h1 {
-        margin-bottom: 0.25em;
-        font-size: 2em;
     }
     .separator {
         font-size: 3em;
         margin-bottom: 1em;
     }
+
+    h1 {
+        margin-bottom: 0.25em;
+        font-size: 2em;
+    }
+
 
     p,
     .button {
