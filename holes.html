@@ -23,12 +23,35 @@
     thead th{position:sticky;top:0;background:var(--bg);color:var(--muted);font-weight:600;font-size:12px;}
     tbody tr:nth-child(odd){background:var(--stripe);}
     @media(max-width:640px){body{font-size:14px;}.wrap{padding:12px;}}
-    @media(max-width:480px){
-      table{min-width:0;}
-      thead{display:none;}
-      tbody tr{display:block;border-bottom:1px solid var(--line);margin-bottom:8px;}
-      tbody td{display:flex;justify-content:space-between;padding:6px 8px;}
-      tbody td::before{content:attr(data-label);color:var(--muted);font-size:12px;margin-right:8px;}
+    @media (max-width: 480px){
+      table{ min-width: 0; }
+      thead{ display: none; }
+    
+      /* Make each row a full-width card */
+      tbody, tr, td { display: block; width: 100%; }
+      tbody tr{
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        margin: 0 0 12px;
+        padding: 8px 12px;
+        background: var(--bg);
+      }
+    
+      /* Stack cells vertically, left-aligned */
+      tbody td{
+        border: 0;
+        padding: 6px 0;
+        text-align: left;
+      }
+    
+      /* Show the column label above each value */
+      tbody td::before{
+        content: attr(data-label);
+        display: block;
+        color: var(--muted);
+        font-size: 12px;
+        margin-bottom: 2px;
+      }
     }
   </style>
 </head>
