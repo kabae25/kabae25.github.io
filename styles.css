@@ -15,7 +15,7 @@ html {
     text-align: left;
     max-width: 600px;
     margin-left: 2em;
-    margin-top: 10em;
+    /* margin-top: 10em; */
 }
 
 .content {
@@ -95,6 +95,15 @@ p {
 li {
     color: #666;
 }
+
+.vcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical centering */
+  height: 100vh;            /* full viewport height (or parent height) */
+  padding-left: 2rem;       /* optional left offset */
+}
+
 
 @media (max-width: 600px) {
     .container {
