@@ -13,13 +13,32 @@
     --screen-bg: #302f2c;
     --screen-tx: #ffffff;
     --screen-div: #404040;
+
+    --header-bg: var(--screen-bg);
+    --header-text: var(--screen-tx);
   }
 }
 
+@media (max-width: 600px) {
+    .container {
+    --content-size: 2fr;
+    --images-size: 0fr;
+    }
+    .menu {
+        --button-padding: 0.25em;
+    }
+}
 @media (min-width: 600px) {
+    .container {
+        --content-size: 2fr;
+        --images-size: 1fr;
+    }
+    .menu {
+        --button-padding: 1.5em;
+    }
+
 }
 
-body,
 html {
   background-color: var(--screen-bg);
   color: var(--screen-tx);
@@ -27,12 +46,13 @@ html {
 }
 
 h {
-  font-size: 2em;
+    font-size: 2em;
+    font-weight: 600;
 }
+
 body {
   background-size: 40px 40px;
   background-image: radial-gradient(circle, var(--screen-tx) 1px, var(--screen-bg) 1px);
-  /* display: table-cell; */
   vertical-align: middle;
   text-align: center;
 }
@@ -43,7 +63,7 @@ body {
     "header header"
     "content images"
     "footer footer";
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: var(--content-size) var(--images-size);
   background-color: var(--screen-tx);
   /* width: 40em; */
 }
@@ -94,7 +114,7 @@ body {
 
 .menu {
   display: flex;
-  gap: 1em;  
+  /* gap: 1em;   */
 }
 
 .menu a {
@@ -103,8 +123,8 @@ body {
   justify-content: left;
   width: auto;
   height: 1em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+  padding-left: var(--button-padding);
+  padding-right: var(--button-padding);
   background: var(--screen-bg);
   color: var(--screen-txt);
   text-decoration: none;
