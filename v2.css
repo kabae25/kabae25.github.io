@@ -9,8 +9,8 @@
 }
 @media screen and (prefers-color-scheme: dark) {
   body {
-    --screen-bg: #302f2c;
-    --screen-tx: #ffffff;
+    --screen-bg: #181818;
+    --screen-tx: #f9f6ef;
 
     --header-bg: var(--screen-bg);
     --header-text: var(--screen-tx);
@@ -45,7 +45,6 @@ html {
 
 h {
     font-size: 2em;
-    font-weight: 600;
 }
 
 body {
@@ -112,13 +111,11 @@ body {
 
 .menu {
   display: flex;
-  /* gap: 1em;   */
 }
 
 .menu a {
   display: flex;
-  align-items:last center;
-  justify-content: left;
+  align-items: center;
   width: auto;
   height: 1em;
   padding-left: var(--button-padding);
