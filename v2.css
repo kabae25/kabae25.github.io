@@ -2,7 +2,6 @@
   body {
     --screen-bg: #f9f6ef;
     --screen-tx: #282828;
-    --screen-div: #d4d4d4;
 
     --header-bg: var(--screen-bg);
     --header-text: var(--screen-tx);
@@ -12,7 +11,6 @@
   body {
     --screen-bg: #302f2c;
     --screen-tx: #ffffff;
-    --screen-div: #404040;
 
     --header-bg: var(--screen-bg);
     --header-text: var(--screen-tx);
@@ -86,7 +84,7 @@ body {
   border-top-width: 0px;
   border-bottom-width: 0px;
   border-right-width: 0px;
-
+  color: var(--screen-tx);
   grid-area: content;
   text-align: left;
   /* background-size: 40px 40px;
