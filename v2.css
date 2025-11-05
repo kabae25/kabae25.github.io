@@ -1,19 +1,23 @@
 @media screen and (prefers-color-scheme: light) {
   body {
+    --foreground-bg: #f9f6ef;
+    --border-color: #282828;
     --screen-bg: #f9f6ef;
+    --screen-bg-alt: #282828;
     --screen-tx: #282828;
 
-    --header-bg: var(--screen-bg);
-    --header-text: var(--screen-tx);
+    --secret-txt-opacity: 0;
   }
 }
 @media screen and (prefers-color-scheme: dark) {
   body {
-    --screen-bg: #181818;
-    --screen-tx: #f9f6ef;
+    --foreground-bg: #3b4453;
+    --border-color: #1b2028;
+    --screen-bg: #222933;
+    --screen-bg-alt: #3b4453;
+    --screen-tx: #f3f3f3;
 
-    --header-bg: var(--screen-bg);
-    --header-text: var(--screen-tx);
+    --secret-txt-opacity: 100;
   }
 }
 
@@ -46,10 +50,13 @@ html {
 h {
     font-size: 2em;
 }
-
+i {
+  opacity: var(--secret-txt-opacity);
+  color: var(--screen-tx);
+}
 body {
   background-size: 40px 40px;
-  background-image: radial-gradient(circle, var(--screen-tx) 1px, var(--screen-bg) 1px);
+  background-image: radial-gradient(circle, var(--screen-bg-alt) 1px, var(--screen-bg) 1px);
   vertical-align: middle;
   text-align: center;
 }
@@ -61,12 +68,14 @@ body {
     "content images"
     "footer footer";
   grid-template-columns: var(--content-size) var(--images-size);
-  background-color: var(--screen-tx);
-  /* width: 40em; */
+  background-color: var(--foreground-bg);
+  color: var(--screen-tx);
+
+  /* border-color: var(--border-color); */
 }
 .container div {
-  background-color: var(--screen-bg);
-  border: 1px solid var(--screen-tx);
+  /* background-color: var(--screen-bg); */
+  border: 1px solid var(--border-color);
   padding: 10px;
   
   /* font-size: 30px; */
@@ -75,15 +84,14 @@ body {
 .container div.header {
   grid-area: header;
   text-align: left;
-  background-color: var(--header-bg);
-  color: var(--header-text);
+  /* background-color: var(--header-bg); */
+  /* color: var(--header-text); */
   border-bottom-width: 0px;
 }
 .container div.content {
   border-top-width: 0px;
   border-bottom-width: 0px;
   border-right-width: 0px;
-  color: var(--screen-tx);
   grid-area: content;
   text-align: left;
   /* background-size: 40px 40px;
@@ -120,7 +128,7 @@ body {
   height: 1em;
   padding-left: var(--button-padding);
   padding-right: var(--button-padding);
-  background: var(--screen-bg);
+  background-color: var(--foreground-bg);
   color: var(--screen-txt);
   text-decoration: none;
   transition: background 0.2s;
@@ -128,7 +136,7 @@ body {
 
 .menu a:hover {
   background: var(--screen-tx);
-  color: var(--screen-bg);
+  color: var(--foreground-bg);
 }
 
 .icon-links {
@@ -142,13 +150,13 @@ body {
   justify-content: center;
   width: 36px;
   height: 36px;
-  background: var(--screen-tx);
+  background-color: var(--screen-tx);
   color: var(--screen-bg);
   text-decoration: none;
   transition: background 0.2s;
 }
 
 .icon-links a:hover {
-  background: var(--screen-bg);
+  background-color: var(--foreground-bg);
   color: (var(--screen-tx));
 }
