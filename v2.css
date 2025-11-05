@@ -1,3 +1,4 @@
+/* V1 */
 @media screen and (prefers-color-scheme: light) {
   body {
     --foreground-bg: #f9f6ef;
@@ -50,10 +51,12 @@ html {
 h {
     font-size: 2em;
 }
+
 i {
   opacity: var(--secret-txt-opacity);
   color: var(--screen-tx);
 }
+
 body {
   background-size: 40px 40px;
   background-image: radial-gradient(circle, var(--screen-bg-alt) 1px, var(--screen-bg) 1px);
