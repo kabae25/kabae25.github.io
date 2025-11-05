@@ -1,0 +1,135 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;      /* use viewport height for reliable centering */
+    background-color: #fff;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    /* Flex container: vertical center, left align horizontally */
+    display: flex;
+    align-items: center;     /* vertical center */
+    justify-content: flex-start; /* keep left-aligned horizontally */
+}
+
+
+.container {
+    text-align: left;
+    max-width: 600px;
+    margin-left: 2em;
+    /* margin-top: 10em; */
+}
+
+.content {
+    text-align: left;
+    margin-left: 2em;
+    font-size: 1.2em;
+}
+
+.icon-links {
+    margin-top: 1.5em;
+    display: flex;
+    gap: 1em;
+}
+
+.icon-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.icon-links a:hover {
+    background: #fff;
+    color: #333;
+}
+
+.separator {
+    text-align: left;
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    color: #666;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    margin-left: 2em;
+}
+
+.btn-group .button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 0.5em;
+}
+
+p {
+    /* font-size: 1.2em; */
+    margin-bottom: 1.5em;
+    /* margin-left: 2em; */
+}
+li {
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin-left: 1em;
+        max-width: 23em;
+        font-size: 1em;
+    }
+    .content {
+        margin-left: 0em;
+        font-size: 1em;
+    }
+
+    .separator {
+        font-size: 3em;
+        margin-bottom: 1em;
+    }
+
+    h1 {
+        margin-bottom: 0.25em;
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.25em;
+    }
+
+    p,
+    .button {
+        margin-left: 0em;
+        margin-bottom: 1em;
+        margin-top: 0.25em;
+    }
+    .btn-group {
+        margin-left: 0;
+    }
+}

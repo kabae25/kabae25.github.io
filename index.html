@@ -7,9 +7,40 @@
   <link rel="icon" type="image/x-icon" href="/favicon.png" />
   <link rel="stylesheet" href="/v2.css" />
 </head>
+
 <script>
-  document.getElementById('theme-toggle').onclick =
-    () => document.documentElement.classList.toggle('dark-mode');
+/* 1) Apply saved theme ASAP (runs in <head>) */
+(() => {
+  const saved = localStorage.getItem('theme'); // 'dark' | 'light' | null
+  if (saved === 'dark') document.documentElement.classList.add('dark-mode');
+  if (saved === 'light') document.documentElement.classList.remove('dark-mode');
+})();
+
+/* 2) After DOM is ready, sync icons and save on click */
+document.addEventListener('DOMContentLoaded', () => {
+  const btn  = document.getElementById('theme-toggle');
+  const sun  = document.getElementById('sun-icon');
+  const moon = document.getElementById('moon-icon');
+
+  function syncIcons() {
+    const isDark = document.documentElement.classList.contains('dark-mode');
+    sun.classList.toggle('hidden', !isDark);
+    moon.classList.toggle('hidden', isDark);
+  }
+
+  // Initial icon state (matches whatever theme is currently applied)
+  syncIcons();
+
+  // Keep your inline onclick for toggling; we only persist + resync after it runs
+  btn.addEventListener('click', () => {
+    // Let the inline onclick finish toggling first
+    setTimeout(() => {
+      const isDark = document.documentElement.classList.contains('dark-mode');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      syncIcons();
+    }, 0);
+  });
+});
 </script>
 
 <body>
@@ -37,10 +68,10 @@
         </svg>
       </button>
       <div class="menu">
-        <a href="#">Projects</a>
-        <a href="#">Areas</a>
-        <a href="#">Resources</a>
-        <a href="#">Archive</a>
+        <a href="/projects/index.html">Projects</a>
+        <a href="/areas/index.html">Areas</a>
+        <a href="/resources/index.html">Resources</a>
+        <a href="/archive/index.html">Archive</a>
       </div>
     </div>
     <div class="content">
