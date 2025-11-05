@@ -1,52 +1,73 @@
 /* V2 */
-@media screen and (prefers-color-scheme: light) {
-  body {
-    --foreground-bg: #f9f6ef;
-    --border-color: #282828;
-    --screen-bg: #f9f6ef;
-    --screen-bg-alt: #282828;
-    --screen-tx: #282828;
-
-    --secret-txt-opacity: 0;
-  }
+:root {
+  --foreground-bg: #f9f6ef;
+  --border-color: #282828;
+  --screen-bg: #f9f6ef;
+  --screen-bg-alt: #282828;
+  --screen-tx: #282828;
+  --secret-txt-opacity: 0;
 }
-@media screen and (prefers-color-scheme: dark) {
-  body {
-    --foreground-bg: #3b4453;
-    --border-color: #1b2028;
-    --screen-bg: #222933;
-    --screen-bg-alt: #3b4453;
-    --screen-tx: #f3f3f3;
 
-    --secret-txt-opacity: 100;
-  }
+/* Dark override */
+:root.dark-mode {
+  --foreground-bg: #3b4453;
+  --border-color: #f3f3f3;
+  --screen-bg: #222933;
+  --screen-bg-alt: #3b4453;
+  --screen-tx: #f3f3f3;
+  --secret-txt-opacity: 100;
 }
+
+/* For the theme button */
+.hidden { display: none; }
 
 @media (max-width: 500px) {
-  .images * {
+  /* .images * {
     display: none;
+  } */
+  .container {
+    grid-template-areas:
+        "header"
+        "content" 
+        "images"
+        "footer";
+      grid-template-columns: 1fr;
   }
-    .container {
-    --content-size: 2fr;
-    --images-size: 0fr;
-    }
-    .menu {
-        --button-padding: 0.25em;
-    }
+  .container .content {
+    border-left-width: 1px;
+  }
+  .container .images {
+    border-left-width: 1px;
+  }
+  .menu {
+      --button-padding: 0.25em;
+  }
 }
 @media (min-width: 500px) {
     .container {
-        --content-size: 2fr;
-        --images-size: 1fr;
+      grid-template-areas:
+        "header header"
+        "content images"
+        "footer footer";
+      grid-template-columns: 2fr 1fr;
+    }
+    .container .content {
+      border-left-width: 1px;
+      border-right-width: 0px;
+    }
+    .container .images {
+      border-left-width: 0px;
+      border-right-width: 1px;
     }
     .menu {
         --button-padding: 1.5em;
     }
-
 }
 
 html {
-  background-color: var(--screen-bg);
+  /* background-color: var(--screen-bg); */
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle, var(--screen-bg-alt) 1px, var(--screen-bg) 1px);
   color: var(--screen-tx);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -60,9 +81,9 @@ i {
   color: var(--screen-tx);
 }
 
+
+
 body {
-  background-size: 40px 40px;
-  background-image: radial-gradient(circle, var(--screen-bg-alt) 1px, var(--screen-bg) 1px);
   vertical-align: middle;
   text-align: center;
 }
@@ -71,55 +92,53 @@ body {
   display: grid;
   max-width: 60em;
   margin: 0 auto;
-  grid-template-areas:
-    "header header"
-    "content images"
-    "footer footer";
-  grid-template-columns: var(--content-size) var(--images-size);
+
   background-color: var(--foreground-bg);
   color: var(--screen-tx);
 
   /* border-color: var(--border-color); */
 }
+
+
 .container div {
   /* background-color: var(--screen-bg); */
   border: 1px solid var(--border-color);
   padding: 10px;
   
   /* font-size: 30px; */
-  /* text-align: center; */
 }
-.container div.header {
+.container .header {
+  position: relative;
   grid-area: header;
   text-align: left;
-  /* background-color: var(--header-bg); */
-  /* color: var(--header-text); */
   border-bottom-width: 0px;
 }
-.container div.content {
+
+.container .header #theme-toggle {
+  position: absolute;
+  top: .75em;
+  right: .75em;
+  border: 0;
+  background-color: var(--foreground-bg);
+  color: var(--screen-tx);
+}
+
+.container .content {
   border-top-width: 0px;
   border-bottom-width: 0px;
-  border-right-width: 0px;
+
   grid-area: content;
   text-align: left;
-  /* background-size: 40px 40px;
-  background-image: linear-gradient(
-      to right,
-      var(--screen-div) 1px,
-      transparent 1px
-    ),
-    linear-gradient(to bottom, var(--screen-div), transparent 1px); */
 }
-.container div.images {
-  border-top-width: 0px;
+.container .images {
   border-bottom-width: 0px;
+  border-top-width: 0px;
   grid-area: images;
   text-align: left;
   padding: 10px;
-  border-left-width: 0px;
 }
 
-.container div.footer {
+.container .footer {
   grid-area: footer;
   text-align: left;
   border-top-width: 0px;
@@ -137,7 +156,7 @@ body {
   padding-left: var(--button-padding);
   padding-right: var(--button-padding);
   background-color: var(--foreground-bg);
-  color: var(--screen-txt);
+  color: var(--screen-tx);
   text-decoration: none;
   transition: background 0.2s;
 }
@@ -168,3 +187,4 @@ body {
   background-color: var(--foreground-bg);
   color: (var(--screen-tx));
 }
+
