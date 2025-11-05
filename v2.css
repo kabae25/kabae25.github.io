@@ -1,4 +1,4 @@
-/* V1 */
+/* V2 */
 @media screen and (prefers-color-scheme: light) {
   body {
     --foreground-bg: #f9f6ef;
@@ -66,6 +66,8 @@ body {
 
 .container {
   display: grid;
+  max-width: 50em;
+  margin: 0 auto;
   grid-template-areas:
     "header header"
     "content images"
