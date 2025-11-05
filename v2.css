@@ -22,7 +22,10 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
+  .images * {
+    display: none;
+  }
     .container {
     --content-size: 2fr;
     --images-size: 0fr;
@@ -31,7 +34,7 @@
         --button-padding: 0.25em;
     }
 }
-@media (min-width: 600px) {
+@media (min-width: 500px) {
     .container {
         --content-size: 2fr;
         --images-size: 1fr;
@@ -66,7 +69,7 @@ body {
 
 .container {
   display: grid;
-  max-width: 50em;
+  max-width: 60em;
   margin: 0 auto;
   grid-template-areas:
     "header header"
@@ -112,7 +115,7 @@ body {
   border-bottom-width: 0px;
   grid-area: images;
   text-align: left;
-  padding: 0px;
+  padding: 10px;
   border-left-width: 0px;
 }
 
