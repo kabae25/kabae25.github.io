@@ -1,0 +1,197 @@
+/* Base + theme tokens */
+:root {
+  --bg: #ffffff;
+  --fg: #222222;
+  --muted: #666666;
+  --border: #e5e5e5;
+  --accent: #0f62fe; /* IBM-ish blue */
+}
+
+.dark-mode {
+  --bg: #0f1115;
+  --fg: #e7e9ee;
+  --muted: #a2a7b0;
+  --border: #2a2f3a;
+  --accent: #8ab4f8;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.5;
+}
+
+/* Sticky bordered header box */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  /* optional subtle backdrop */
+  backdrop-filter: saturate(1.2) blur(2px);
+}
+
+/* Box look */
+.site-header .header-row {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-top: none;             /* prevent double border; first row will still look boxed */
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.site-header .header-row:first-child {
+  border-top: 1px solid var(--border);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.site-header .header-row:last-child {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Show only one variant based on width */
+.header-full { display: flex; }
+.header-compact { display: none; }
+
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 650;
+  letter-spacing: 0.2px;
+}
+.brand-link.compact { font-weight: 700; }
+
+.primary-nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.primary-nav a,
+.compact-nav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+.primary-nav a:hover,
+.compact-nav a:hover {
+  background: color-mix(in oklab, var(--accent) 14%, transparent);
+  color: var(--fg);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px; height: 36px;
+  border-radius: 10px;
+  color: var(--fg);
+  text-decoration: none;
+  border: 1px solid var(--border);
+}
+.icon-btn:hover {
+  background: color-mix(in oklab, var(--accent) 12%, transparent);
+}
+.icon-btn.sm { width: 30px; height: 30px; border-radius: 8px; }
+
+.theme-btn {
+  width: 36px; height: 36px; border-radius: 10px;
+  border: 1px solid var(--border);
+  background: transparent; color: var(--fg);
+  display: inline-flex; align-items: center; justify-content: center;
+  cursor: pointer;
+}
+.theme-btn.sm { width: 30px; height: 30px; border-radius: 8px; }
+.hidden { display: none; }
+
+/* Container for page content */
+.container {
+  max-width: 960px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+/* Text + image blocks */
+.block {
+  display: grid;
+  grid-template-columns: 1fr minmax(220px, 280px);
+  gap: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+}
+.block:last-child { border-bottom: none; }
+
+.block .text h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.25rem;
+}
+.block .text p { margin: 0 0 10px 0; }
+
+.media {
+  margin: 0;
+  display: grid;
+  gap: 6px;
+  align-content: start;
+  justify-items: start;
+}
+.media img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+.media figcaption {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* Footer */
+.site-footer {
+  max-width: 960px;
+  margin: 24px auto 48px;
+  padding: 0 16px;
+  color: var(--muted);
+}
+
+/* RESPONSIVE
+   - Switch to compact header and stack image under text
+*/
+@media (max-width: 700px) {
+  .header-full { display: none; }
+  .header-compact { display: flex; }
+
+  .compact-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+  }
+
+  .block {
+    grid-template-columns: 1fr;
+  }
+  .media {
+    order: 2;           /* ensure media appears AFTER the text */
+  }
+  .text {
+    order: 1;
+  }
+}
