@@ -71,7 +71,7 @@ body {
 .compact-nav a {
   text-decoration: none;
   color: inherit;
-  padding: 6px 8px;
+  /* padding: auto 0px; */
 }
 .primary-nav a:hover,
 .compact-nav a:hover {
@@ -81,7 +81,7 @@ body {
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .icon-btn {
@@ -96,7 +96,7 @@ body {
 }
 
 .theme-btn {
-  width: 36px; height: 36px;
+  /* width: 36px; height: 36px; */
   border: 0px solid var(--content-border-color);
 
   background: var(--content-bg);
