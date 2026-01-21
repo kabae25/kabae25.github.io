@@ -4,9 +4,9 @@
   --content-text-color: #282828;
   --content-border-color: #282828;
 
-  --header-background: #4da2ff;
+  --header-background: #282828;
   --header-text-color: #ffffff;
-  --header-border-color: #4da2ff;
+  --header-border-color: #282828;
 
   --background-primary-color: #ffffff;
   --background-complementary-color: #b1b1b1;
@@ -31,9 +31,9 @@
 
 html, body { height: 100%; }
 body {
-  background-size: 40px 40px;
+  /* background-size: 40px 40px;
   background-image: radial-gradient(circle, var(--background-complementary-color) 1px, var(--background-primary-color) 1px);
-  
+   */
   color: var(--content-text-color);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
