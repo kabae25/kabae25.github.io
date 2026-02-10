@@ -14,7 +14,7 @@
             <div class="header-row header-full">
                 <div class="name">
                     <a href="/" class="name-link" aria-label="Home">
-                        <span>Evan Kaba</span>
+                        <span>Evan Kaba</span><span> > Projects > Arm</span>
                     </a>
                 </div>
                 <div class="header-actions">
@@ -38,7 +38,7 @@
             <div class="header-row header-compact" aria-label="Compact header">
                 <div class="name">
                     <a href="/" class="name-link sm">
-                        <span>Evan Kaba</span>
+                        <span>Evan Kaba</span><span> > Projects > Arm</span>
                     </a>
                 </div>
                 <div class="header-actions">
@@ -59,23 +59,54 @@
         </header>
         <section class="block">
             <div class="text">
-                <p> Robotics engineering student interested in autonomy, perception and control.</p>
-                <p> Currently I work in the <a href="https://acp-lab.wpi.edu">ACP Lab</a> at wpi on <a href="https://youtu.be/3XxvbsIoenM?si=4cBmRoadWaZlEH8n&t=130">high speed drones</a>.
+                <h1>Pick and Place Robotic Arm</h1>
+                    <p>OpenManipulatorX, USB Fisheye camera and MATLAB (CV Toolbox)</p>
+            </div>
+            <div class="image"></div>
+            <div class="text">
+                <h2>Goals</h2>
+                <p>Project goal was to use an outside-in USB Camera, OpenManipulator X, and the MATLAB Computer Vision toolbox to autonomously sort balls of four different colors into respective bins.</p>
+            </div>
+            <div class="image"></div>
 
-                <h2>Interests</h2>
-                <p>Bookmarks <a href="/bookmarks.html">>></a></p>
+            <div class="text">
+                <h2>Code Architecture</h2>
+                <p>The arm's functionality is split into a <i>robot</i> class for planning and control, and an <i>image processor</i> class for object detection and localization.</p>
+                <p>A snapshot is first taken of balls on a checkerboard plate. The image processor <i>processes</i> the image and extracts the ball color and centroid coordinates with color masking and blob detection (more info below.)</p>
+                <p>The robot then plans a multi-step trajectory to quickly move above the ball, open the end effector, carefully decend and
+                    grasp the ball, then move above correct bin and drop it safely.</p>
+            </div>
+            <div class="image"></div>
 
-                <h2>Projects</h2>
-                <p>Quadrotor Geometric Controller vs. MPC </p>
-                <p>MQP: High-Speed Obstacle Avoidance </p>
-                <p>SLAM Mobile Robot</p>
-                <p>4-DOF Sorting Arm <a href="/projects/arm/">>> (writing in-progress)</a></p>
-                <p>Mini-ROS: Usable Publisher/Subscriber/Messager code architecture from scratch </p>
+            <div class="text">
+                <h2>Computer Vision</h2>
+                <p>Overcoming lens distortion</p>
+                <p>Masking and detecting centroids</p>
+            </div>
+            <div class="image"></div>
 
-                <h2> Contact </h2>
-                <p class="email">ejkaba at wpi dot edu</p>
+            <div class="text">
+                <h2>Control</h2>
+                <p> DH Forward Kinematics</p>
+                <p> Geometric Inverse Kinematics</p>
+                <p> Jacobian Inverse Kinematics</p>
+                <p> Experimental Netwon-Raphson Method </p>
+            </div>
+            <div class="image"></div>
+
+            <div class="text">
+                <h2>Trajectory Generation</h2>
+                <p>Quintic Trajectory Generator</p>
 
             </div>
+            <div class="image"></div>
+
+            <div class="text">
+                <h2>Code</h2>
+                <p>Unfortunately because of tight integration with WPI's RBE3001 course material (arm drivers and solutions to course labs) I have been told not to post code on Github.</p>
+                <p>I can share on a request basis thought.</p>
+            </div>
+                          
         </section>   
     </main>
 </body>
