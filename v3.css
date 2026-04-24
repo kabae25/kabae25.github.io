@@ -48,6 +48,12 @@ body {
     /* border-bottom: 1px solid var(--content-border-color); */
 }
 
+mark {
+  color: var(--content-bg);
+  background-color: var(--content-text-color);
+  padding: 0.125em;
+}
+
 .site-header .header-row {
     max-width: 60em;
     margin: 0 auto;
